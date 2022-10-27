@@ -11,6 +11,8 @@ public class InsertionSort {
                 j=j-1;
             }
             arr[j+1]=value;
+
+            //toplamda n^2 den 8 eleman old. icin 8^2=64 islem
         }
     }
 }

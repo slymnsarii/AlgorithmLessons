@@ -1,0 +1,10 @@
+Mantık : verilen dizinin herhangi bir yerinden bir pivot eleman secilip
+pivottan buyuk olan elemanlari pivotun sagina, kucuk olan elemanlari pivotun soluna
+kaydirilir.Bu islemi yaptiktan sonra pivot elemanin solundaki ve sagindaki dizilerden
+ayri ayri pivot eleman secilip, dizileri kendi icerisinde tekrar bu isleme tabi tutulur.
+Rekursif olarak bu islem devam ettikten sonra tum dizi siralanmis olur.
+
+Time Complexity:Bu algoritmanin en kotu durumda O(n^2), ortalama O(nlogn) zaman alir.
+Bu sayede performans olarak daha onceki sorting algoritmalarinin hepsinden hizlidir
+Bellek kullanimi olarak ise en kotu durumda O(n) bellek yer(eleman sayisi kadar bellek yer) extra alan kullanir
+Bu da rekursif olmasindan kaynaklanir
